@@ -1,50 +1,64 @@
 :root {
     --primary-text-color: #757575;
-    --title-text-color: #212121;
+    --second-text-color: #212121;
     --accent-text-color: #2196F3;
     --primary-bg-color:#E5E5E5;
+    --second-bg-color:#ffffff;
 }
 
-/* Колір основного тексту #212121; */
-/* Вторинний колір #757575;*/
-/* білий колір #FFFFFF; */
-/* колір ефектів акцент #2196F3; */
-/* колір адреси - тел, мило - rgba(255, 255, 255, 0.6); */
-/* основний колір фону #E5E5E5 */
-/* додаткові кольоври фону #F5F4FA, #2F303A */
 body {
+    font-family: Roboto, sans-serif;
     background-color: var(--primary-bg-color);
-    color: var(--primary-text-color);
-    letter-spacing: 0.03em;
-}
-.list {
-    list-style: none;
-}
-.logo {
-    color: var(--accent-text-color);
-}
-.logo:hover,
-.logo:focus {
-    color: var(--title-text-color);
-}
-
-/* site-nov */
-
-.site-nav .nav-item {
-    color: var(--title-text-color);
-}
-.site-nav .nav-item:hover,
-.site-nav .nav-item:focus {
-    color: var(--accent-text-color);
-}
-
-/* Кнопки */
-
-.button {
-    color: var(--title-text-color);
-    background-color: var(--primary-bg-color);
-}
-.button.primary {
-    background-color: var(--accent-text-color);
     color: var(--primary-bg-color);
+    letter-spacing: 0.03em;
+    }
+
+    /* ----навігація--- */
+
+.header {
+    background-color: var(--second-bg-color);
 }
+ .logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc (31 / 26);
+    letter-spacing: 0.03em;    
+    color: var(--accent-text-color);
+ }
+ .logo:hover,
+ .logo:focus {
+     color: #000000;
+ }
+ 
+ .nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;    
+    color: var(--second-text-color);
+ }
+ .nav-link:hover,
+ .nav-link:focus {
+     color: var(--accent-text-color);
+ }
+ .nav-list {
+     text-decoration: none;
+ }       
+    
+       
+    
+        .nav-list {}
+    
+        .nav-item {}
+    
+        
+        .header-address {}
+    
+        .address-mail {}
+    
+        .mail-link {}
+    
+        .addres-tel {}
+    
+        .tel-link {}
