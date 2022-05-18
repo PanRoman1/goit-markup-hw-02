@@ -1,0 +1,50 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-text-color: #2196F3;
+    --primary-bg-color:#E5E5E5;
+}
+
+/* Колір основного тексту #212121; */
+/* Вторинний колір #757575;*/
+/* білий колір #FFFFFF; */
+/* колір ефектів акцент #2196F3; */
+/* колір адреси - тел, мило - rgba(255, 255, 255, 0.6); */
+/* основний колір фону #E5E5E5 */
+/* додаткові кольоври фону #F5F4FA, #2F303A */
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+    letter-spacing: 0.03em;
+}
+.list {
+    list-style: none;
+}
+.logo {
+    color: var(--accent-text-color);
+}
+.logo:hover,
+.logo:focus {
+    color: var(--title-text-color);
+}
+
+/* site-nov */
+
+.site-nav .nav-item {
+    color: var(--title-text-color);
+}
+.site-nav .nav-item:hover,
+.site-nav .nav-item:focus {
+    color: var(--accent-text-color);
+}
+
+/* Кнопки */
+
+.button {
+    color: var(--title-text-color);
+    background-color: var(--primary-bg-color);
+}
+.button.primary {
+    background-color: var(--accent-text-color);
+    color: var(--primary-bg-color);
+}
