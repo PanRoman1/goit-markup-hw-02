@@ -33,8 +33,11 @@ body {
     letter-spacing: 0.03em;
     color: #2196F3;
 }
-.logo-second {
+.logo-main {
     color: #000;
+}
+.logo-second {
+    color: #FFFFFF;
 }
 
 .nav-link {
@@ -181,6 +184,9 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+.footer-link.postal {
+    color: #FFFFFF;
 }
 .footer-link:hover,
 .footer-link:focus {
